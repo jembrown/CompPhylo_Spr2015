@@ -1,3 +1,9 @@
+Introduction to Unix Terminal Commands
+
+http://www.ee.surrey.ac.uk/Teaching/Unix/
+http://www.software-carpentry.org/v4/shell/index.html
+http://www.tutorialspoint.com/unix/
+
 Git Guides
 
 http://backlogtool.com/git-guide/en/
