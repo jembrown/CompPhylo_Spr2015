@@ -1,0 +1,8 @@
+Git Guides
+
+http://backlogtool.com/git-guide/en/
+http://rogerdudler.github.io/git-guide/
+http://wiki.freegeek.org/index.php/Git_for_dummies
+http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide
+http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/
+github.com/BioinformaticsSpring2015/BioinformaticsMaterials/blob/master/labExercises/BioinfWk1Lab.md 
