@@ -15,8 +15,17 @@ http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-yo
 github.com/BioinformaticsSpring2015/BioinformaticsMaterials/blob/master/labExercises/BioinfWk1Lab.md 
 
 vim (command-line text editor)
+
 http://tnerual.eriogerg.free.fr/vimqrc.html
 
 regular expressions (regex) and grep
+
 http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/
 http://www.ericagamet.com/wp-content/uploads/2011/11/Erica-Gamets-GREP-Cheat-Sheet.pdf
+
+Recursion
+
+http://en.wikipedia.org/wiki/Recursive_definition
+http://en.wikipedia.org/wiki/Recurrence_relation
+http://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence-in-python
+
