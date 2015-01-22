@@ -1,6 +1,6 @@
 """
 Computational Phylogenetics
-1.15.15/1.20.15
+1.15/20/22.15
 Introduction to Python
 J.M. Brown
 """
@@ -75,30 +75,6 @@ print(myString[1:4])
 # Wait, what just happened there? How many characters were printed and what was
 #   the first one? 
 
-"""
-With the skills you have now learned in the first part of this script, try this
-exercise:
-
-*** Sequence Manipulation Exercise ***
-
-- Create a new Python script (text file)
-- At the beginning of the script, define a DNA sequence (taken from 
-https://github.com/jembrown/CompPhylo_Spr2015/blob/master/CodingSeq.txt)
-- Print the length of the sequence to the screen along with text explaining 
-the value
-- Create and store the RNA equivalent of the sequence, then print to screen.
-- Create and store the reverse complement of your sequence, then print to 
-screen.
-- Extract the bases corresponding to the 13rd and 14th codons from the 
-sequence, then print them to the screen.
-- Create a function to translate the nucleotide sequence to amino acids 
-using the vertebrate mitochondrial genetic code (available from 
-https://github.com/jembrown/CompPhylo_Spr2015/blob/master/VertMitTransTable.txt).
-- Translate the sequence and print it to the screen.
-- Be sure you've added comments to explain what this script is and what the 
-different bits of code mean.
-- Save this script as "seqManip.py" and commit it to your class GitHub repo.
-"""
 
 # Lists are compound variables. They simultaneously store the values of several
 # variables of a particular type. Here's an example of a list of strings:
@@ -212,6 +188,39 @@ for num in range(4):
 # steps of z, use three arguments:
 
 print(range(4,12,3)) # Goes from 4 to 12 in steps of 3
+
+
+# Tuples are another complex data structure similar to lists. The differences 
+# between them are minor, but can sometimes be important. Tuples are defined 
+# using parentheses and can be indexed in the same manner as lists. However,
+# they are immutable. Elements cannot be changed, nor can they be added or 
+# removed. 
+
+a = (1,5,10,7)
+print(a[1])
+a[1] = 3        # This will throw an error
+
+# Dictionaries are another complex data type that allow the storage of paired
+# data. The elements of these pairs are referred to as keys and values. To 
+# define a dict, we use curly braces around the outside. The elements are the 
+# key/value pairs. Individual pairs are separated by commas, and the keys and
+# values in each pair are separated by colons.
+
+myDict = {
+    "key1" : "valOne",
+    "key2" : "valTwo",
+    "key3" : "valThree",
+    "key4" : "valFour"
+}
+
+# The values stored in dictionaries can be accessed by using their corresponding
+# keys. The syntax is identical to that used for accessing the individual
+# elements of a list, string, or tuple.
+
+print(myDict["key3"])
+
+# Dictionaries do have some restrictions. Keys can only be strings or numbers
+# and all of them must be unique.
 
 # Sometimes, we only want our code to do something if a certain condition is
 #   met. In other words, something else must first be True. To do this, we can
