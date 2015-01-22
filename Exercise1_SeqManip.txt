@@ -1,0 +1,21 @@
+*** Sequence Manipulation Exercise ***
+
+- Create a new Python script (text file)
+- At the beginning of the script, define a DNA sequence (taken from 
+https://github.com/jembrown/CompPhylo_Spr2015/blob/master/CodingSeq.txt)
+- Print the length of the sequence to the screen along with text explaining 
+the value
+- Create and store the RNA equivalent of the sequence, then print to screen.
+- Create and store the reverse complement of your sequence, then print to 
+screen.
+- Extract the bases corresponding to the 13rd and 14th codons from the 
+sequence, then print them to the screen.
+- Create a function to translate the nucleotide sequence to amino acids 
+using the vertebrate mitochondrial genetic code (available from 
+https://github.com/jembrown/CompPhylo_Spr2015/blob/master/VertMitTransTable.txt).
+- Translate the sequence and print it to the screen.
+- Be sure you've added comments to explain what this script is and what the 
+different bits of code mean.
+- Save this script as "seqManip.py" and commit it to your class GitHub repo.
+
+Due: Jan. 22nd
