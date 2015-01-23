@@ -7,6 +7,8 @@ http://freeengineer.org/learnUNIXin10minutes.html
 
 Git Guides (version control)
 
+http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/
+https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD
 http://backlogtool.com/git-guide/en/
 http://rogerdudler.github.io/git-guide/
 http://wiki.freegeek.org/index.php/Git_for_dummies
