@@ -1,0 +1,35 @@
+*** Discrete Sampling Practice ***
+
+---> Creating useful functions <---
+
+(1) Write a function that multiplies all consecutively decreasing numbers between a maximum and a minimum supplied as arguments. (Like a factorial, but not necessarily going all the way to 1). This calculation would look like
+
+max * max-1 * max-2 * ... * min
+
+(2) Using the function you wrote in (1), write a function that calculates the binomial coefficient (see Definition 1.4.12 in the probability reading). Actually, do this twice. The first time (2a) calculate all factorials fully. Now re-write the function and cancel as many terms as possible so you can avoid unnecessary multiplication (see the middle expression in Theorem 1.4.13).
+
+(3) Try calculating different binomial coefficients using both the functions from (2a) and (2b) for different values of n and k. Try some really big values there is a noticeable difference in speed between the (2a) and (2b) function. Which one is faster? By roughly how much?
+
+(4) Use either function (2a) or (2b) to write a function that calculates the probability of k successes in n Bernoulli trials with probability p. This is called the Binomial(n,p) distribution. See Theorem 3.3.5 for the necessary equation. [Hint: pow(x,y) returns x^y (x raised to the power of y).]
+
+(5) Now write a function to sample from an arbitrary discrete distribution. This function should take two arguments. The first is a list of arbitrarily labeled events and the second is a list of probabilities associated with these events. Obviously, these two lists should be the same length.
+
+---> Sampling sites from an alignment <---
+
+Imagine that you have a multiple sequence alignment with two kinds of sites. One type of site pattern supports the monophyly of taxon A and taxon B. The second type supports the monophyly of taxon A and taxon C.
+
+(6) For an alignment of 400 sites, with 200 sites of type 1 and 200 of type 2, sample a new alignment (a new set of site pattern counts) with replacement from the original using your function from (5). Print out the counts of the two types.
+
+(7) Repeat (6) 100 times and store the results in a list.
+
+(8) Of those 100 trials, summarize how often you saw particular proportions of type 1 vs. type 2. 
+
+(9) Calculate the probabilities of the proportions you saw in (8) using the binomial probability mass function (PMF) from (4).
+
+(10) Compare your results from (8) and (9).
+
+(11) Repeat 7-10, but use 10,000 trials.
+
+
+
+
