@@ -1,0 +1,92 @@
+-------------------------
+Probability and Inference
+-------------------------
+
+Be able to (roughly) define and explain the significance of:
+
+Sample spaces
+Outcomes
+Events
+Trials
+Random Variables
+Sampling with(out) replacement
+Binomial coefficient
+Discrete Random Variables
+Continuous Random Variables
+Probability Mass (Distribution) Functions
+Cumulative Distribution Functions
+Support (of a Random Variable)
+Conditional Probability and the Independence of Random Variables
+Likelihood Functions
+Maximum Likelihood Estimates
+Likelihood Ratios
+*Likelihood Principle
+i.i.d.
+Mean
+Variance
+
+Answer questions like these:
+
+How do we define probabilities? What properties must they have?
+How do we interpret probabilities? There are two major schools of thought on this.
+How do events relate to outcomes?
+How do random variables relate to events?
+How are discrete and continuous random variables different?
+How are likelihoods the same as/different from probabilities? 
+How is the binomial related to the Poisson?
+How is the geometric related to the exponential?
+How are the Poisson and exponential related? [Hint: In the same way as the binomial and geometric.]
+
+Be able to explain when these distributions are relevant and have a sense for their behavior:
+
+Bernoulli
+Binomial
+Uniform (discrete and continuous)
+*Poisson
+Geometric
+*Exponential
+
+------
+Python
+------
+Understand these terms:
+
+statement
+function
+method
+argument
+return type
+class
+instance
+typecasting
+doc strings
+
+Understand the nature of these simple data types:
+
+int
+float
+string
+Boolean
+
+Create and manipulate (when possible) these complex data types:
+
+list
+tuple
+dictionary
+* sets 
+
+Understand these flow control statements:
+
+if...elif...else
+for loops
+while loops
+
+Be able to define new functions with(out) arguments that may or may not have default values.
+
+Be able to add single-line and multi-line comments to a program.
+
+
+
+
+
+
