@@ -31,3 +31,9 @@ http://en.wikipedia.org/wiki/Recursive_definition
 http://en.wikipedia.org/wiki/Recurrence_relation
 http://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence-in-python
 
+Other's notes on maximum likelihood estimation
+
+http://www.stat.umn.edu/geyer/s06/5102/notes/like.pdf
+http://pages.uoregon.edu/aarong/teaching/G4075_Outline/node13.html
+http://www.montana.edu/rotella/502/binom_like.pdf
+https://onlinecourses.science.psu.edu/stat504/node/27, https://onlinecourses.science.psu.edu/stat504/node/28
