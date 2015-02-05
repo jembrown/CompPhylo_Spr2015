@@ -37,3 +37,7 @@ http://www.stat.umn.edu/geyer/s06/5102/notes/like.pdf
 http://pages.uoregon.edu/aarong/teaching/G4075_Outline/node13.html
 http://www.montana.edu/rotella/502/binom_like.pdf
 https://onlinecourses.science.psu.edu/stat504/node/27, https://onlinecourses.science.psu.edu/stat504/node/28
+
+Markov chains
+
+http://setosa.io/blog/2014/07/26/markov-chains/
