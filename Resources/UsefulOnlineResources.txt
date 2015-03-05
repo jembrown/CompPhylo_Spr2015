@@ -30,6 +30,7 @@ Recursion
 http://en.wikipedia.org/wiki/Recursive_definition
 http://en.wikipedia.org/wiki/Recurrence_relation
 http://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence-in-python
+https://www.youtube.com/watch?v=Mv9NEXX1VHc
 
 Other's notes on maximum likelihood estimation
 
