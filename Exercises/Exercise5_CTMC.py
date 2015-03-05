@@ -36,13 +36,6 @@ update elements of the Q-matrix when equil. frequencies or R-rates change.
   
 (b) Define a method for simulating character histories using the Q-matrix.
 
-- Draw a starting state from the equilibrium frequencies
-- Draw a waiting time from the appropriate exponential distribution
-- Draw a new state from the marginal probabilities associated with the current
-  state.
-- Keep drawing waiting times and new states until the total time exceeds the
-  branch length.
-
 (c) Define a method that estimates branch lengths from marginal probabilities
 using maximum likelihood. Use a 'site-independent' model, where the marginal
 probability across the entire data set (i.e., across all simulations jointly)
@@ -61,10 +54,46 @@ class ctmc(object):
     def __init__(self):
 
 
+def simulate(self):
+    
+    # Draw a starting state from the equilibrium frequencies.
+    
+    # Draw a waiting time from the appropriate exponential distribution.
+    
+    # Draw a new state from the marginal probabilities associated with the 
+    # current state.
+
+    # Keep drawing waiting times and new states until the total time exceeds 
+    # the branch length.
 
 
-
-
+def estBrl(self,currBrl,diff,thresh):
+    
+    # Calculate the starting likelihood for currBrl. Multiply likelihoods from
+    # different sites.
+    
+    # Calculate the likelihood for upBrl = currBrl+diff
+    
+    # Calculate the likelihood for downBrl = currBrl-diff. Check to make sure
+    # this doesn't go below 0.
+    
+    while ((diff > thresh) & (currBrl < 20))
+    # NOTE: The ML branch-length estimate can sometimes be infinity. To avoid
+    # the function trying to reach infinity, you should add a cutoff value for
+    # the maximum possible branch-length. Something like 20 should be plenty 
+    # large.
+  
+        if #upBrl likelihood > currBrl likelihood :
+            currBrl = upBrl
+        elif #downBrl likelihood > currBrl likelihood :
+            currBrl = downBrl
+        else:
+            diff *= 0.5
+            
+        # Recalculate likelihoods for new currBrl, upBrl, and downBrl
+    
+    return currBrl
+    
 
 """
 The ctmc class and methods are defined above. They are used and tested below.
