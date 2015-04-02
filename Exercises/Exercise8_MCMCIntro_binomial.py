@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import pylab as pl
 
 # Define data set
-n = 20
+n = 200
 p_true = 0.5                # True value to be estimated later
 data = binom.rvs(n,p_true)  # Drawing a 'data set'
 
@@ -50,9 +50,9 @@ def drawP(p_in):
     return newP
     
 # Set chain length and run it
-ngens = 50          # Total length of chain
+ngens = 50000          # Total length of chain
 sampleFreq = 1      # Change this to something >1 if you want to space out samples.
-updateFreq = 5000   # Frequency of screen updates to make sure chain is running.
+updateFreq = 10000   # Frequency of screen updates to make sure chain is running.
 samples = []        # Vector to hold sampled values
 
 for gen in range(ngens):
@@ -87,6 +87,7 @@ print("Posterior 95% credibility interval: "+"(%f,%f)" % (postBurnSamples[int(le
 
 # Marginal histogram
 pl.figure()
+pl.xlim(0,1)
 pl.hist(postBurnSamples)
 pl.show()
 
