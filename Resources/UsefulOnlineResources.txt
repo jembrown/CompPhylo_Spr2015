@@ -5,6 +5,12 @@ http://www.software-carpentry.org/v4/shell/index.html
 http://www.tutorialspoint.com/unix/
 http://freeengineer.org/learnUNIXin10minutes.html
 
+Online Python Resources
+
+http://learnpythonthehardway.org/book/
+http://pythonforbiologists.com
+http://www.codecademy.com/tracks/python
+
 Git Guides (version control)
 
 http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/
